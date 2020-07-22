@@ -18,5 +18,8 @@ that the tests run again.
 
 ### To debug meteor tools (compiler-plugin etc)
 
-Open files in ~/.meteor/packages/meteor-tool/1.10.2/mt-os.osx.x86_64/tools/ in your debugger and
-attach to the build process (alrady in inspect mode via npm run test:server)
+Open whatever .js file you want to step through from ~/.meteor/packages/meteor-tool/1.10.2/mt-os.osx.x86_64/tools/ in your debugger and attach to the build process (alrady in inspect mode via npm run test:server).
+
+E.g. 
+
+    code `realpath ~/.meteor/packages/meteor-tool/1.10.2/mt-os.osx.x86_64/tools/isobuild/compiler-plugin.js`
