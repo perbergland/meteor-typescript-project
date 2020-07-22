@@ -2,7 +2,7 @@
   "name": "meteor-typescript-project",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "start": "meteor run  --exclude-archs web.browser.legacy",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test:server": "TOOL_NODE_FLAGS='--inspect' TEST_WATCH=1 TEST_CLIENT=0 meteor test --driver-package meteortesting:mocha --exclude-archs web.browser,web.browser.legacy",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
