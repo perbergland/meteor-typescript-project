@@ -6,9 +6,7 @@
     "lib": ["esnext", "dom"],
     "allowJs": true,
     "checkJs": false,
-    "jsx": "preserve",
-    "incremental": true,
-    "noEmit": true,
+    "jsx": "react",
 
     /* Strict Type-Checking Options */
     "strict": true,
