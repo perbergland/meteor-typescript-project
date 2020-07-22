@@ -10,10 +10,8 @@ that the tests run again.
 
 ### To switch typescript compiler to refapp:meteor-typescript
 
-    meteor remove typescript
-    meteor add refapp:meteor-typescript
+    meteor remove typescript && meteor add refapp:meteor-typescript
 
 ### To switch typescript compiler to the meteor core compiler
   
-    meteor remove refapp:meteor-typescript
-    meteor add typescript
+    meteor remove refapp:meteor-typescript && meteor add typescript
