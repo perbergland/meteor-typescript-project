@@ -15,3 +15,8 @@ that the tests run again.
 ### To switch typescript compiler to the meteor core compiler
   
     meteor remove refapp:meteor-typescript && meteor add typescript
+
+### To debug meteor tools (compiler-plugin etc)
+
+Open files in ~/.meteor/packages/meteor-tool/1.10.2/mt-os.osx.x86_64/tools/ in your debugger and
+attach to the build process (alrady in inspect mode via npm run test:server)
