@@ -10,11 +10,17 @@ that the tests run again.
 
 ### To switch typescript compiler to refapp:meteor-typescript
 
-    meteor remove typescript && meteor add refapp:meteor-typescript
+    scripts/setrefappcompiler.sh
+
+or
+
+    scripts/setrefappcompiler-local.sh
+
+for using local source code for the refapp:meteor-typescript compiler
 
 ### To switch typescript compiler to the meteor core compiler
   
-    meteor remove refapp:meteor-typescript && meteor add typescript
+    scripts/setcorecompiler.sh
 
 ### To debug meteor tools (compiler-plugin etc)
 
